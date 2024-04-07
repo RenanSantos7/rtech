@@ -1,5 +1,6 @@
 import Button from '../../../components/Button/Button.tsx'
 import styles from './Banner.module.css'
+import bg from './banner1.png'
 
 export default function Banner() {
     return (
@@ -12,6 +13,7 @@ export default function Banner() {
                 <Button>Conferir</Button>
             </div>
             <div className={styles.desconto}>Até 40% de desconto!</div>
+            <img src={bg} alt="" />
         </div>
     )
 }

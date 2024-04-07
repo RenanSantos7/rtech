@@ -2,7 +2,7 @@ import styles from './Logo.module.css'
 
 interface LogoProps {
     color: string
-    size: number
+    size?: number
 }
 
 export default function Logo({ color, size = 4 }: LogoProps) {
@@ -18,7 +18,7 @@ export default function Logo({ color, size = 4 }: LogoProps) {
             style={logoStyle}
         >
             r
-            <span className={styles.tech}>Tech</span>
+            <span className={styles.tech} style={{color: logoStyle.color}}>Tech</span>
         </h1>
     )
 }

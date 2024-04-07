@@ -6,7 +6,7 @@ DataContext.displayName = "rTech"
 
 export const DataProvider = ({ children }:{ children:ReactNode }) => {
     const [produtos, setProdutos] = useState([...dadosProdutos]);
-    
+
     return (
         <DataContext.Provider value={{
             produtos, setProdutos

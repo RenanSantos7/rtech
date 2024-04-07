@@ -9,10 +9,20 @@ class Produto {
 	preco: number
 	marca: string
 	categoria: Categoria
+	recomendado: boolean
+	dataAdd?: Date
 	rating?: number = 0
 	numRating?: number = 0
 
-	constructor(titulo: string, img: string, preco: number, marca: string, categoria: Categoria) {
+	constructor(
+		titulo: string,
+		img: string,
+		preco: number,
+		marca: string,
+		categoria: Categoria,
+		recomendado: boolean = false,
+		dataAdd: string = '2024-04-02T11:00:00.000Z'
+	) {
 		this.id = Produto.nextId
 		Produto.nextId++
 		this.titulo = titulo
@@ -20,6 +30,8 @@ class Produto {
 		this.preco = preco
 		this.marca = marca
 		this.categoria = categoria
+		this.recomendado = recomendado
+		this.dataAdd = new Date(dataAdd)
 		this.rating = 0
 		this.numRating = 0
 	}

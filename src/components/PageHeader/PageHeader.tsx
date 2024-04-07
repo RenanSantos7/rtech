@@ -3,8 +3,8 @@ import Logo from '../Logo/Logo.tsx'
 import styles from './PageHeader.module.css'
 import SearchBar from './SearchBar/SearchBar.tsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faCircleUser } from '@fortawesome/free-regular-svg-icons'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-regular-svg-icons'
+import { faCartShopping, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function PageHeader() {
     return (
@@ -43,7 +43,6 @@ export default function PageHeader() {
                             className={styles.icon}
                         />
                     </Link>
-
                 </div>
             </div>
         </header>
