@@ -28,6 +28,7 @@ export default function SecProdutos() {
                     ? produtosLtd.map(produto => (
                         <Card
                             key={produto.id}
+                            idProduto={produto.id}
                             titulo={produto.titulo}
                             img={produto.img}
                             preco={produto.preco}

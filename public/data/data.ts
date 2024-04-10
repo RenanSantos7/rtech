@@ -6,6 +6,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_627370-MLU72700969039_112023-F.webp',
         296,
         'QCY',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         true
     ),
@@ -14,6 +15,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_605295-MLU73190352487_122023-F.webp',
         196,
         'QCY',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -22,6 +24,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_788562-MLU75367348391_032024-F.webp',
         219.92,
         'QCY',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -30,6 +33,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_645644-MLU72566276230_112023-F.webp',
         263,
         'Wave',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -38,6 +42,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_712244-MLU75010422549_032024-F.webp',
         238.96,
         'JBL',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -46,6 +51,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_837279-MLU72074478583_102023-F.webp',
         35.78,
         '',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -54,6 +60,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_646196-MLU74979395045_032024-F.webp',
         960,
         'Motorola',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         true
     ),
@@ -62,6 +69,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_850620-MLU75401311344_042024-F.webp',
         1999.99,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -70,6 +78,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_923648-MLA74676699752_022024-F.webp',
         1498.99,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -78,6 +87,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_679242-MLU75571661557_042024-F.webp',
         1186.55,
         'Motorola',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -86,6 +96,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_970547-MLU74873117400_032024-F.webp',
         1849.99,
         'Motorola',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         true
     ),
@@ -94,6 +105,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_927260-MLU74111588047_012024-F.webp',
         2699.10,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -102,6 +114,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_939389-MLU72699560887_112023-F.webp',
         188.3,
         'QCY',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -110,6 +123,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_985363-MLB72428837115_102023-O.webp',
         169.38,
         'Chinese Democracy',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -118,6 +132,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_797006-MLU74728880906_032024-O.webp',
         469,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -126,6 +141,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_700469-MLA47030070171_082021-O.webp',
         927.4,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -134,6 +150,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_610933-CBT71217724667_082023-O.webp',
         155.55,
         'Kumi',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -142,6 +159,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_699287-MLA72121650027_102023-O.webp',
         2888,
         'Apple',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'smartwatch',
         false
     ),
@@ -150,6 +168,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_916682-MLA47782359266_102021-O.webp',
         3637.39,
         'Apple',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         true,
         '2023-11-10T10:00:00.000Z'
@@ -159,6 +178,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_979821-MLA48687968529_122021-O.webp',
         415,
         'Mondial',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -167,6 +187,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_635357-MLU74111549087_012024-O.webp',
         2218,
         'JBL',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         true
     ),
@@ -175,6 +196,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_777012-MLU75556079989_042024-O.webp',
         566,
         'JBL',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -183,6 +205,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_935829-MLU72638732751_112023-O.webp',
         1499,
         'Amvox',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -191,6 +214,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_778930-MLU74826639555_022024-O.webp',
         563,
         'Amvox',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -199,6 +223,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_757884-MLU72571353764_112023-O.webp',
         82,
         'Pulse',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -207,6 +232,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_2X_672455-MLA52221404161_102022-F.webp',
         690,
         'Pulse',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -215,6 +241,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_662443-MLU74859451317_032024-O.webp',
         1910.5,
         'Pulse',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'som',
         false
     ),
@@ -223,6 +250,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_994999-MLB72340170695_102023-O.webp',
         193.99,
         'Apple',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -231,6 +259,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_701543-MLB52790801045_122022-O.webp',
         134.99,
         'Ipega',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -239,6 +268,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_639078-MLB70979642759_082023-O.webp',
         189,
         'Chinese Democracy',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -247,6 +277,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_751080-MLU73129330886_122023-O.webp',
         58,
         'IT-Blue',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -255,6 +286,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_830139-MLB75107597355_032024-O.webp',
         25.75,
         'Chinese Democracy',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -263,6 +295,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_629432-MLU70065160207_062023-O.webp',
         22.5,
         'Inova',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -271,6 +304,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_925760-MLB53467922622_012023-O.webp',
         28,
         'Kapaom',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -279,6 +313,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_701995-MLU73566391897_122023-O.webp',
         35,
         'Pineng',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -287,6 +322,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_607548-MLB74987916772_032024-O.webp',
         35.9,
         'Fokus',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         true
     ),
@@ -295,6 +331,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_632615-MLU70784620546_082023-O.webp',
         12,
         'OpenZee',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -303,6 +340,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_905933-MLB73567177222_122023-O.webp',
         35,
         'OR',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -311,6 +349,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_811697-MLU70654855160_072023-O.webp',
         25,
         'H+',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -319,6 +358,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_695820-MLU72847807999_112023-O.webp',
         108.8,
         'Gorilla Shield',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -327,6 +367,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_635934-MLB45201288643_032021-O.webp',
         99,
         'Gorilla Shield',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -335,6 +376,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_921998-MLB31197498699_062019-O.webp',
         84,
         'Gorilla Shield',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -343,6 +385,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_994700-MLA70090312836_062023-O.webp',
         267,
         'Gorilla Shield',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -351,6 +394,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_846770-MLB47288793028_082021-O.webp',
         60,
         'Gorilla Shield',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'acessorio',
         false
     ),
@@ -359,6 +403,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_972745-MLU71227536566_082023-O.webp',
         394.2,
         'JBL',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -367,6 +412,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_868658-MLU75556701811_042024-O.webp',
         505,
         'Waaw',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -375,6 +421,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_667594-MLA74085965687_012024-O.webp',
         39.99,
         'Catear',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -383,6 +430,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_964956-MLA74781910215_022024-O.webp',
         299,
         'Edifier',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -391,6 +439,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_912731-MLB74924774463_032024-O.webp',
         214.99,
         'Edifier',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -399,6 +448,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_968778-MLU73095972622_112023-O.webp',
         547,
         'Edifier',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         true,
         '2024-04-06T12:00.000Z'
@@ -408,6 +458,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_660382-MLA44484093036_012021-O.webp',
         2616.99,
         'Sony',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -416,6 +467,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_864419-MLB75174278402_032024-O.webp',
         1758.92,
         'Sony',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         true
     ),
@@ -424,6 +476,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_613993-MLB75040754988_032024-O.webp',
         999.9,
         'Soundcore',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -432,6 +485,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_939845-MLA40777871409_022020-O.webp',
         710,
         'Sony',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'fone',
         false
     ),
@@ -440,6 +494,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_909193-MLU75400447816_042024-O.webp',
         1719.9,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -448,6 +503,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_875973-MLB74366959533_022024-O.webp',
         1429,
         'Xiaomi',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         true
     ),
@@ -456,6 +512,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_921060-MLA74676494036_022024-O.webp',
         1199,
         'Xiaomi',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -464,6 +521,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_780144-MLA72668121499_112023-O.webp',
         927,
         'Xiaomi',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         false
     ),
@@ -472,6 +530,7 @@ const dadosProdutos = [
         'https://http2.mlstatic.com/D_NQ_NP_671450-MLA73995271498_012024-O.webp',
         7919.99,
         'Samsung',
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         'celular',
         true,
         '2024-04-07T13:27:45.000Z'

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import styles from './Categoria.module.css'
-import celular from './celular.png'
-import relogio from './relogio.png'
-import fone from './fone.png'
-import caixa from './caixa-de-som.png'
-import cabo from './cabo.png'
+import celular from '../../../../assets/celular.png'
+import relogio from '../../../../assets/relogio.png'
+import fone from '../../../../assets/fone.png'
+import caixa from '../../../../assets/caixa-de-som.png'
+import cabo from '../../../../assets/cabo.png'
 
 interface CategoriaProps {
 	content: string
@@ -15,15 +15,15 @@ export default function Categoria({ content }: CategoriaProps) {
     let contentImg = ''
 
 	switch (content) {
-        case 'celulares':
+        case 'celular':
             contentImg = celular
 			contentTxt = 'Celulares'
 			break
-        case 'smartwatches':
+        case 'smartwatch':
             contentImg = relogio
 			contentTxt = 'Smartwatches'
 			break
-        case 'fones':
+        case 'fone':
             contentImg = fone
 			contentTxt = 'Fones de ouvido'
 			break
@@ -31,7 +31,7 @@ export default function Categoria({ content }: CategoriaProps) {
             contentImg = caixa
 			contentTxt = 'Caixas de Som'
 			break
-        case 'acessorios':
+        case 'acessorio':
             contentImg = cabo
 			contentTxt = 'Acessórios'
 			break

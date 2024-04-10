@@ -10,7 +10,9 @@ export default function PageHeader() {
     return (
         <header className={styles.pageHeader}>
             <div className={`pageLimited ${styles.container}`}>
-                <Logo color='white' size={3} />
+                <Link to='/'>
+                    <Logo color='white' size={3} />
+                </Link>
                 
                 <SearchBar />
                 

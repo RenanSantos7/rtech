@@ -1,4 +1,4 @@
-type Categoria = 'celular'  | 'smartwatch' | 'fone' | 'som' | 'acessorio' | 'outros'
+export type Categoria = 'celular'  | 'smartwatch' | 'fone' | 'som' | 'acessorio' | 'outros'
 
 class Produto {
 	private static nextId = 0
@@ -8,6 +8,7 @@ class Produto {
 	titulo: string
 	preco: number
 	marca: string
+	descricao: string
 	categoria: Categoria
 	recomendado: boolean
 	dataAdd?: Date
@@ -19,6 +20,7 @@ class Produto {
 		img: string,
 		preco: number,
 		marca: string,
+		descricao: string,
 		categoria: Categoria,
 		recomendado: boolean = false,
 		dataAdd: string = '2024-04-02T11:00:00.000Z'
@@ -29,6 +31,7 @@ class Produto {
 		this.img = img
 		this.preco = preco
 		this.marca = marca
+		this.descricao = descricao
 		this.categoria = categoria
 		this.recomendado = recomendado
 		this.dataAdd = new Date(dataAdd)

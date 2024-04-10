@@ -1,0 +1,20 @@
+.banner {
+	background-color: var(--azul1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+	h2 {
+		margin: 0;
+		color: white;
+		text-transform: capitalize;
+		font-size: 4rem;
+        font-family: 'Orbitron';
+	}
+
+    .image {
+        width: 200px;
+    }
+}
