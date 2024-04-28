@@ -13,25 +13,32 @@ interface CardProps {
 
 export default function Card({ idProduto, titulo, img, preco }: CardProps) {
 	function numToStr(num: number) {
-		return num.toFixed(2).replace('.', ',')
+		return num.toLocaleString('pt-BR')
     }
     
     const navigate = useNavigate()
 
-    function navigateToProduct(id: number) {
+    function addToCart(id: number) {
         navigate(`/produto/${id}`)
     }
 
 	return (
 		<article className={styles.card}>
-			<img src={img} alt='' />
+			<Link to={`/produto/${idProduto}`}>
+				<img src={img} alt='' />
+	
+				<div>
+					<h3>{titulo}</h3>
+					<p>R$ {numToStr(preco)}</p>
+				</div>
+			</Link>
 
-			<div>
-				<h3>{titulo}</h3>
-				<p>R$ {numToStr(preco)}</p>
-			</div>
+			<Button handleClick={() => addToCart(idProduto)}>
+				<FontAwesomeIcon icon={faCartPlus} />
+				Adicionar ao carrinho
+			</Button>
 
-			<Button handleClick={() => navigateToProduct(idProduto)}>
+			<Button handleClick={() => addToCart(idProduto)}>
 				<FontAwesomeIcon icon={faCartPlus} />
 				Comprar
 			</Button>
