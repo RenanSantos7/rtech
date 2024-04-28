@@ -3,6 +3,7 @@ import Base from "./pages/Base.tsx";
 import Home from "./pages/Home/Home.tsx";
 import PagCategoria from "./pages/PagCategoria/PagCategoria.tsx";
 import Produto from "./pages/Produto/Produto.tsx";
+import Erro404 from "./pages/Erro404/Erro404.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: 'produto/:id',
         element: <Produto />
+      },
+      {
+        path: '*',
+        element: <Erro404 />
       }
     ]
   }

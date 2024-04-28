@@ -24,7 +24,7 @@ export default function PagCategoria() {
     ))
 
     return (
-        <div className={`pageLimited`}>
+        <div className='pageLimited'>
             <BannerCategory category={category} />
             <CardContainer>
                 {!!filteredProducts.length
