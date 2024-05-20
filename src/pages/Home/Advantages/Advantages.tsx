@@ -1,9 +1,10 @@
 import styles from './Advantages.module.css'
+import Titulo2 from '../../../components/Titulos/Titulo2.tsx'
 
 export default function Advantages() {
     return (
         <>
-            Seção de vantagens
+            <Titulo2>Seção de vantagens</Titulo2>
         </>
     )
 }

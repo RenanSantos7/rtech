@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import BannerCategory from './BannerCategory/BannerCategory.tsx'
 import { useContext, useEffect } from 'react'
 import { DataContext } from '../../contexts/DataContext.tsx'
-import Produto from '../../../public/data/model.ts'
+import Produto from '../../types/Produto.ts'
 import CardContainer from '../../components/CardContainer/CardContainer.tsx'
 import Card from '../../components/Card/Card.tsx'
 
@@ -19,7 +19,6 @@ export default function PagCategoria() {
     const { produtos }:IContexto = useContext(DataContext)
     
     const filteredProducts = produtos.filter(produto => (
-        //@ts-ignore
         produto.categoria === category
     ))
 

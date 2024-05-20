@@ -21,8 +21,21 @@
         height: 60px;
         overflow: hidden;
     }
+}
 
-    p {
-        font-weight: 500;
-    }
+.precoContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: .5ch;
+}
+
+.cifrao {
+    font-weight: bold;
+    color: var(--azul2);
+}
+
+.preco {
+    font-size: 1.25em;
+    color: var(--azul1);
+    font-weight: 600;
 }

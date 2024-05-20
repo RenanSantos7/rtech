@@ -4,7 +4,8 @@ import styles from './PageHeader.module.css'
 import SearchBar from './SearchBar/SearchBar.tsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
-import { faCartShopping, faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import IcoCart from './IcoCart/IcoCart.tsx'
 
 export default function PageHeader() {
     return (
@@ -27,15 +28,8 @@ export default function PageHeader() {
                         />
                     </Link>
                     
-                    <Link
-                        to='/'
-                        title='Carrinho'
-                    >
-                        <FontAwesomeIcon
-                            icon={faCartShopping}
-                            className={styles.icon}
-                        />
-                    </Link>
+                    <IcoCart />
+
                     <Link
                         to='/'
                         title='Conta'

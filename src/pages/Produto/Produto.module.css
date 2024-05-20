@@ -9,6 +9,10 @@
 
 .imgContainer {
 	width: 350px;
+
+    img {
+        mix-blend-mode: darken;
+    }
 }
 
 .info {

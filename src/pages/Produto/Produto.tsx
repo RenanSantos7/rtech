@@ -2,7 +2,7 @@ import styles from './Produto.module.css'
 import { useParams } from 'react-router-dom'
 import { useContext } from 'react'
 import { DataContext } from '../../contexts/DataContext.tsx'
-import Produto from '../../../public/data/model.ts'
+import Produto from '../../types/Produto.ts'
 import classNames from 'classnames'
 
 interface Contexto {

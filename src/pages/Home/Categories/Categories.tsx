@@ -1,5 +1,6 @@
 import styles from './Categories.module.css'
 import Categoria from './Categoria/Categoria.tsx'
+import Titulo2 from '../../../components/Titulos/Titulo2.tsx'
 
 export default function Categories() {
 
@@ -7,7 +8,7 @@ export default function Categories() {
 
     return (
         <section>
-            <h2>Categorias</h2>
+            <Titulo2>Categorias</Titulo2>
             <div className={styles.categoriesList}>
                 {categories.map((category, i) =>
                     <Categoria

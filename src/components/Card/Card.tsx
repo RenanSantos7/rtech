@@ -1,35 +1,34 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Button from '../Button/Button.tsx'
 import styles from './Card.module.css'
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
-import { Link, useNavigate } from 'react-router-dom'
+import Button from '../Button/Button.tsx'
+import numToStr from '../../utils/converteMoeda.ts'
+import useCartContext from '../../hooks/useCartContext.tsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 interface CardProps {
-    idProduto: number
+	idProduto: number
 	titulo: string
 	img: string
 	preco: number
 }
 
 export default function Card({ idProduto, titulo, img, preco }: CardProps) {
-	function numToStr(num: number) {
-		return num.toLocaleString('pt-BR')
-    }
-    
-    const navigate = useNavigate()
-
-    function addToCart(id: number) {
-        navigate(`/produto/${id}`)
-    }
+	const { addToCart } = useCartContext()
 
 	return (
 		<article className={styles.card}>
 			<Link to={`/produto/${idProduto}`}>
 				<img src={img} alt='' />
-	
+
 				<div>
 					<h3>{titulo}</h3>
-					<p>R$ {numToStr(preco)}</p>
+					<p className={styles.precoContainer}>
+						<span className={styles.cifrao}>R$</span>
+						<span className={styles.preco}>
+							{numToStr(preco)}
+						</span>
+					</p>
 				</div>
 			</Link>
 
@@ -39,7 +38,7 @@ export default function Card({ idProduto, titulo, img, preco }: CardProps) {
 			</Button>
 
 			<Button handleClick={() => addToCart(idProduto)}>
-				<FontAwesomeIcon icon={faCartPlus} />
+				<FontAwesomeIcon icon={faShoppingBag} />
 				Comprar
 			</Button>
 		</article>

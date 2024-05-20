@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home.tsx";
 import PagCategoria from "./pages/PagCategoria/PagCategoria.tsx";
 import Produto from "./pages/Produto/Produto.tsx";
 import Erro404 from "./pages/Erro404/Erro404.tsx";
+import PagCarrinho from "./pages/PagCarrinho/PagCarrinho.tsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: 'produto/:id',
         element: <Produto />
+      },
+      {
+        path: '/carrinho',
+        element: <PagCarrinho />
       },
       {
         path: '*',

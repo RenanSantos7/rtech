@@ -1,4 +1,4 @@
-import Produto from './model.ts'
+import Produto from '../../src/types/Produto.ts'
 
 const dadosProdutos = [
     new Produto(

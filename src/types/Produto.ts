@@ -14,6 +14,7 @@ class Produto {
 	dataAdd?: Date
 	rating?: number = 0
 	numRating?: number = 0
+	publicID?: string
 
 	constructor(
 		titulo: string,
